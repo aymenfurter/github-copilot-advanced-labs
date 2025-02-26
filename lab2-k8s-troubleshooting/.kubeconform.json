@@ -1,0 +1,10 @@
+{
+  "kubernetes-version": "1.22.0",
+  "strict": true,
+  "ignore-missing-schemas": false,
+  "skip": [
+    "CustomResourceDefinition"
+  ],
+  "verbose": true,
+  "summary": true
+}
