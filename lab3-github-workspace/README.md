@@ -1,10 +1,6 @@
-# Lab 3: Spring XML to Java Configuration Migration
+# Lab 3: GitHub Workspace 
 
-This lab focuses on migrating a legacy Spring application from XML-based configuration to Java-based configuration.
-
-## Sample Project 1: Legacy Spring XML App to Modern Java 21
-
-https://githubnext.com/
+See: https://githubnext.com/
 
 1. Open https://copilot-workspace.githubnext.com/
 
