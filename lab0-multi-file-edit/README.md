@@ -12,7 +12,6 @@ In the first phase, you will create a single HTML file that includes:
 
 - Create an `index.html` file housing your complete Calculator App.
 - Implement basic arithmetic operations (addition, subtraction, multiplication, division).
-- Ensure edge cases (e.g., division by 0) are handled gracefully.
 
 ```
 copilot> 
