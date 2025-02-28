@@ -21,6 +21,11 @@ The `incorrect-deployment.yaml` has several configuration issues. Use GitHub Cop
 3. Verify the fixes using kubectl
 
 ```
+kubectl apply -f incorrect-deployment.yaml
+```
+
+
+```
 copilot> 
 Please help me fix the issues in the incorrect-deployment.yaml file so it can be successfully deployed #terminalLastCommand 
 ```
