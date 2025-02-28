@@ -1,4 +1,4 @@
-# GitHub Copilot Advanced Labs (Java)
+# GitHub Copilot Advanced Labs
 
 This repository contains three hands-on labs designed to demonstrate advanced GitHub Copilot capabilities.
 
