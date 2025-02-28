@@ -15,7 +15,7 @@ In the first phase, you will create a single HTML file that includes:
 
 ```
 copilot> 
-Please build the Calculator App inside index.html integrating HTML, CSS, and JavaScript.
+Please build the Calculator App inside a single index.html integrating HTML, CSS, and JavaScript.
 ```
 
 ## Phase 2: Code Refactoring
