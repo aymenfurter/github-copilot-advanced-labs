@@ -6,7 +6,6 @@ This lab demonstrates how GitHub Copilot's Agent Mode can help identify and fix 
 
 - Docker installed
 - kubectl installed 
-- kubeconform installed (`brew install kube-linter` on macOS)
 - Azure CLI installed (for AKS setup)
 - Azure subscription with permissions to enable Microsoft Defender for Containers
 
