@@ -29,7 +29,7 @@ A set of Kubernetes deployment manifests containing various issues including inc
 - Experiencing Copilot's ability to run commands to validate, rebuild, and verify fixes
 
 **Tools Used:**
-- kubeconform for Kubernetes manifest validation
+- kube-linter for Kubernetes manifest validation
 - Container security scanning tools
 - kubectl for deployment verification
 
