@@ -35,7 +35,11 @@ A set of Kubernetes deployment manifests containing various issues including inc
 
 [Go to Lab 2](./lab2-k8s-troubleshooting)
 
-### Lab 3: GitHub Copilot Workspace 
+### Lab 3: Modernize Legacy Java App
+
+[Go to Lab 3](./lab3-legacy-java-app/)
+
+### Lab 4: GitHub Copilot Workspace 
 Containerize an existing Application
 
 [Go to Lab 3](./lab3-github-workspace)

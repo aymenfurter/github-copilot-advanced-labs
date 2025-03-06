@@ -39,8 +39,40 @@ copilot>
 Refactor the project into three files and ensure all functionalities work without errors.
 ```
 
+## Phase 3: Visual Enhancement with GPT-4o
+
+In this phase, you'll use GPT-4o's multi-modal capabilities through GitHub Copilot in VS Code Insiders to improve the calculator's design:
+
+1. **Screenshot Preparation**
+   - Open your calculator in a browser
+   - Take a screenshot of your current calculator interface
+   - Save it as `calculator-current.png`
+
+2. **Visual AI Consultation**
+   - Open VS Code Insiders, navigate to Copilot Chat
+   - Drag and drop your `calculator-current.png`
+   - Ask GPT-4o to suggest visual improvements for:
+     - Color scheme
+     - Layout
+     - Typography
+
+3. **Implementation**
+   - Apply the AI-suggested visual enhancements to your CSS
+
+### Exercise
+
+- Capture your calculator's current state
+- Use GPT-4o to analyze and get suggestions
+- Implement the visual improvements
+
+```
+copilot> 
+Analyze my calculator design and suggest visual improvements that follow modern UI principles.
+```
+
 ## Success Criteria
 
 ✅ The Calculator App performs all arithmetic operations correctly  
 ✅ The merged code from individual files works seamlessly  
-✅ The refactored project exhibits a clear separation of responsibilities
+✅ The refactored project exhibits a clear separation of responsibilities  
+✅ The UI incorporates modern design principles suggested by GPT-4o
