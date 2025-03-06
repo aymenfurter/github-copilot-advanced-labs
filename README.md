@@ -5,7 +5,7 @@ This repository contains hands-on labs designed to demonstrate advanced GitHub C
 ## Labs Overview
 
 ### Lab 0: Calculator App Development (Copilot Edits)
-Develop a calculator app by first implementing the entire functionality in a single HTML file—and then refactoring it into separate HTML, CSS, and JavaScript files for improved maintainability.
+Develop a calculator app by first implementing the entire functionality in a single HTML file. Then refactoring it into separate HTML, CSS, and JavaScript files for improved maintainability.
 
 [Go to Lab 0](./lab0-multi-file-edit/)
 
