@@ -1,6 +1,6 @@
 # GitHub Copilot Advanced Labs
 
-This repository contains three hands-on labs designed to demonstrate advanced GitHub Copilot capabilities.
+This repository contains hands-on labs designed to demonstrate advanced GitHub Copilot capabilities.
 
 ## Labs Overview
 
