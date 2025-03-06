@@ -15,7 +15,7 @@ In the first phase, you will create a single HTML file that includes:
 
 ```
 copilot> 
-Please build the Calculator App inside index.html integrating HTML, CSS, and JavaScript.
+Please build the Calculator App inside a single index.html integrating HTML, CSS, and JavaScript.
 ```
 
 ## Phase 2: Code Refactoring
@@ -74,5 +74,4 @@ Analyze my calculator design and suggest visual improvements that follow modern 
 
 ✅ The Calculator App performs all arithmetic operations correctly  
 ✅ The merged code from individual files works seamlessly  
-✅ The refactored project exhibits a clear separation of responsibilities  
-✅ The UI incorporates modern design principles suggested by GPT-4o
+✅ The refactored project exhibits a clear separation of responsibilities
