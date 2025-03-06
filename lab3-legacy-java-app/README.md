@@ -42,6 +42,6 @@ Then run it using Tomcat7 Maven plugin (yes, Tomcat7, from when dinosaurs roamed
 mvn tomcat7:run
 ```
 
-The application will be available at: `http://localhost:8080/motor-insurance`
+The application will be available at: `http://localhost:8080/motor-insurance/policies`
 
 Please allow extra time for pages to load. They have to travel all the way from the Mesozoic Era.
