@@ -6,7 +6,6 @@ This lab demonstrates how GitHub Copilot's Agent Mode can help identify and fix 
 
 - Docker installed
 - kubectl installed 
-- kubeconform installed (`brew install kube-linter` on macOS)
 - Azure CLI installed (for AKS setup)
 - Azure subscription with permissions to enable Microsoft Defender for Containers
 
@@ -20,6 +19,10 @@ The `incorrect-deployment.yaml` has several configuration issues. Use GitHub Cop
 1. Identify the issues in the deployment manifest
 2. Fix the issues to make the deployment valid
 3. Verify the fixes using kubectl
+
+```
+kubectl apply -f incorrect-deployment.yaml
+```
 
 ```
 copilot> 
