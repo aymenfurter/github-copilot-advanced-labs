@@ -57,9 +57,9 @@ class ProductServiceTest {
         // Test update for non-existent product
         assertFalse(productService.updateQuantity("999", 5));
         
-        // Test with negative quantity - should fail but currently passes due to bug
-        assertTrue(productService.updateQuantity("2", -5));
-        assertEquals(-5, productService.getProduct("2").getQuantity());
+        // Test with negative quantity
+        assertFalse(productService.updateQuantity("2", -5));
+        assertEquals(0, productService.getProduct("2").getQuantity());
     }
     
     @Test
