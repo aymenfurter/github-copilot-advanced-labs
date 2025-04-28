@@ -39,7 +39,7 @@ A set of Kubernetes deployment manifests containing various issues including inc
 
 [Go to Lab 3](./lab3-legacy-java-app/)
 
-### Lab 4: GitHub Copilot Workspace 
-Containerize an existing Application
+### Lab 4: MCP
+A lab focused on using the Model Context Protocol (MCP) to interact with GitHub and other tools. This replaces the previous GitHub Copilot Workspace lab.
 
-[Go to Lab 3](./lab3-github-workspace)
+[Go to Lab 4](./lab4-mcp/)
