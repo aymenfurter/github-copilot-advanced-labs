@@ -37,9 +37,16 @@ A set of Kubernetes deployment manifests containing various issues including inc
 
 ### Lab 3: Modernize Legacy Java App
 
+```
+copilot> 
+Please modernize lab3-legacy-java-app to be a modern java spring boot app. make sure to first give me a plan I can approve. Create a new dire that is lab3-modern-java-app as a result. Includje and run also tests.
+```
+
+
+
 [Go to Lab 3](./lab3-legacy-java-app/)
 
-### Lab 4: GitHub Copilot Workspace 
-Containerize an existing Application
+### Lab 4: MCP
+A lab focused on using the Model Context Protocol (MCP) to interact with GitHub and other tools. This replaces the previous GitHub Copilot Workspace lab.
 
-[Go to Lab 3](./lab3-github-workspace)
+[Go to Lab 4](./lab4-mcp/)
