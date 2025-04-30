@@ -55,16 +55,18 @@ Implement any security best practies that are missing.
 
 ```
 copilot> 
-Azure Container Registry warns me that I have open CVEs (CVE-2020-36329, CVE-2020-36328, CVE-2018-25014, CVE-2018-25013, CVE-2018-25012, etc) - What could be the reason?
+@github please check the web for the most recent nginx versio non dockerhub
 
-copilot> 
-@github 1.21.6 seems to be an older version too. Please tell me the most recent nginx version number?
+OR
+
+copilot>
+#fetch https://hub.docker.com/_/nginx
 ```
 
 ## Success Criteria
 
 ✅ All deployments can be successfully applied with kubectl  
-✅ kubeconform passes without errors on all deployment files  
+✅ kube-linter passes without errors on all deployment files  
 ✅ Security vulnerabilities are addressed and verified with Microsoft Defender for Containers
 
 ## Environment Setup
