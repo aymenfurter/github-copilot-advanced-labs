@@ -50,3 +50,8 @@ Please modernize lab3-legacy-java-app to be a modern java spring boot app. make 
 A lab focused on using the Model Context Protocol (MCP) to interact with GitHub and other tools. This replaces the previous GitHub Copilot Workspace lab.
 
 [Go to Lab 4](./lab4-mcp/)
+
+
+### Lab 5: Software Development Lifecycle using GitHub Copilot 
+
+[Go to Lab 5](./lab5-ai-sdlc/)
