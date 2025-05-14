@@ -11,6 +11,18 @@ In this lab, we'll follow a single feature (submitting an insurance claim) throu
 7. Maintenance
 
 ---
+## Basic Functionality of Copilot
+
+1) open helloworld.py
+2) Show autocompletion and in-line chat.
+
+## Chat Intro
+
+"What are the phases of the SDLC process?" 
+"#codebase where is my MCP configured?"
+"#terminalSelection what do you think of my machine?"
+"What is an MCP server?"
+"@github check web for What is an MCP server?"
 
 ## 1. Requirements Engineering (3 mins)
 
@@ -47,9 +59,7 @@ In this lab, we'll follow a single feature (submitting an insurance claim) throu
 ### Design Architecture
 **Azure Copilot Extension + Copilot Chat:**
 
-"Use Azure Docs to compare Azure Service Bus Queue vs Event Grid for processing sequential insurance claims, focusing on reliability and ordered delivery."
-
-"Which would be a better fit for implementing this user story?"
+"Use Azure Docs to compare Azure Service Bus Queue vs Event Grid for processing sequential insurance claims, focusing on reliability and ordered delivery. Which would be a better fit for implementing this user story?"
 
 "OK - Please edit the work item in Azure DevOps to reflect this design decision."
 
@@ -64,7 +74,6 @@ In this lab, we'll follow a single feature (submitting an insurance claim) throu
 **Copilot Chat:**
 
 "Design a OpenAPI Specification for a POST endpoint for /claims that accepts and validates a Claim object, returning a claim reference number."
-
 
 "Please perform lint validation this OpenAPI Specification using spectral. Validate against the following ruleset: https://gist.githubusercontent.com/aymenfurter/9140b60b2aa57774fd6b84af2bce9725/raw/1710fd04e31f8bf1d90caea0d218f7b6a90bc465/ruleset.yaml"
 
@@ -86,7 +95,7 @@ In this lab, we'll follow a single feature (submitting an insurance claim) throu
 ### API Testing Setup
 **Copilot Chat:**
 
-"Generate unitpython test for the validate_request.py file"
+"/tests"
 
 ---
 
@@ -110,7 +119,10 @@ git push origin main:feat2
 - Helps reviewers make faster, more informed decisions
 
 
+
 ---
+
+(Below here is optional)
 
 ## 6. Deployment (3 mins)
 
