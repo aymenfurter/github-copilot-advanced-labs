@@ -36,7 +36,7 @@ In this lab, we'll follow a single feature (submitting an insurance claim) throu
 ### Generate HTML Prototype
 **Copilot Chat:**
 
-"OK - Let's implement this user story. Start by generating a prototype form with for submitting the insurance claim as per the user story. Use the screenshot as a reference for the layout and design."
+"OK - Let's implement this user story. Start by generating a prototype form with for submitting the insurance claim as per the user story. Use the screenshot as a reference for the layout, font style and design."
 
 
 ### Edit Form Component
@@ -77,22 +77,26 @@ In this lab, we'll follow a single feature (submitting an insurance claim) throu
 ### Generate API Boilerplate Code
 **Copilot Chat:**
 
-"Implement the server side in Python in a single main.py, requirements.txt - install depenendencies and run / test the app. For now just expose the APIs and return a static response." 
+"Commit and publish to private repo"
 
-"Add basic validation: ensure policy_id and description are not empty."
+"Give me the boilerplate code for main.py validate_request.py and requirements.txt to implement this user story. Return a static response for now."
 
 ## 4. Testing (3 mins)
 
 ### API Testing Setup
 **Copilot Chat:**
 
-"Generate unitpython test for POST /claims with valid data (policy_id: INS-123-456, date: 2024-04-20, time: 14:30, description) and invalid cases."
+"Generate unitpython test for the validate_request.py file"
 
 ---
 
 ## 5. Code Review (3 mins)
 
 ### Create Pull Request
+git add .
+git commit -m "inital"
+git push origin main:initial
+
 VSCode: The developer creates a Pull Request (PR) with the changes.
 
 Terminal:
