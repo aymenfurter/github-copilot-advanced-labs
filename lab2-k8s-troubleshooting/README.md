@@ -9,7 +9,6 @@ This lab demonstrates how GitHub Copilot's Agent Mode can help identify and fix 
 - Azure CLI installed (for AKS setup)
 - Azure subscription with permissions to enable Microsoft Defender for Containers
 
-
 ## Exercises
 
 ### Exercise 1: Fix the Incorrect Deployment (Agent Mode)
@@ -30,7 +29,7 @@ Please help me fix the issues in the incorrect-deployment.yaml file so it can be
 ```
 
 ### Exercise 2: Resolve Linting Issues (Agent Mode)
-i
+
 The `linting-deployment.yaml` contains issues that can be detected by "kube-linter lint". Use GitHub Copilot Agent Mode to:
 
 1. Run kube-linter to identify linting issues

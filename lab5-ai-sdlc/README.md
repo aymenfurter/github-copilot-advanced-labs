@@ -1,4 +1,5 @@
 # Lab 5: A Day in the SDLC with GitHub Copilot (20-25 min Demo)
+
 In this lab, we'll follow a single feature (submitting an insurance claim) through the software development lifecycle, showcasing how GitHub Copilot enhances each phase for a Python application.
 
 **SDLC Phases Covered:**
@@ -11,7 +12,8 @@ In this lab, we'll follow a single feature (submitting an insurance claim) throu
 7. Maintenance
 
 ---
-## Basic Functionality of Copilot
+
+## Basic Functionality of Copilot
 
 1) open helloworld.py
 2) Show autocompletion and in-line chat.
@@ -24,7 +26,7 @@ In this lab, we'll follow a single feature (submitting an insurance claim) throu
 "What is an MCP server?"
 "@github check web for What is an MCP server?"
 
-## 1. Requirements Engineering (3 mins)
+## Exercise 1: Requirements Engineering (3 mins)
 
 ### Draft a User Story 
 **Copilot Chat (VSCode):**
@@ -43,13 +45,12 @@ In this lab, we'll follow a single feature (submitting an insurance claim) throu
 
 ---
 
-## 2. Design (3 mins)
+## Exercise 2: Design (3 mins)
 
 ### Generate HTML Prototype
 **Copilot Chat:**
 
 "OK - Let's implement this user story. Start by generating a prototype form with for submitting the insurance claim as per the user story. Use the screenshot as a reference for the layout, font style and design."
-
 
 ### Edit Form Component
 **Open Simple Browser: Show. Then click on 'Add element to chat'. Then enter in  Copilot Chat:**
@@ -81,7 +82,7 @@ In this lab, we'll follow a single feature (submitting an insurance claim) throu
 
 ---
 
-## 3. Implementation (5 mins)
+## Exercise 3: Implementation (5 mins)
 
 ### Generate API Boilerplate Code
 **Copilot Chat:**
@@ -90,7 +91,7 @@ In this lab, we'll follow a single feature (submitting an insurance claim) throu
 
 "Give me the boilerplate code for main.py validate_request.py and requirements.txt to implement this user story. Return a static response for now."
 
-## 4. Testing (3 mins)
+## Exercise 4: Testing (3 mins)
 
 ### API Testing Setup
 **Copilot Chat:**
@@ -99,7 +100,7 @@ In this lab, we'll follow a single feature (submitting an insurance claim) throu
 
 ---
 
-## 5. Code Review (3 mins)
+## Exercise 5: Code Review (3 mins)
 
 ### Create Pull Request
 git add .
@@ -118,13 +119,11 @@ git push origin main:feat2
 - Suggests improvements based on code patterns or missing validation
 - Helps reviewers make faster, more informed decisions
 
-
-
 ---
 
 (Below here is optional)
 
-## 6. Deployment (3 mins)
+## Exercise 6: Deployment (3 mins)
 
 ### Generate Infrastructure as Code
 **Copilot Chat:**
@@ -133,7 +132,7 @@ git push origin main:feat2
 
 ---
 
-## 7. Maintenance (2 mins)
+## Exercise 7: Maintenance (2 mins)
 
 ### Generate Documentation
 **Copilto Chat**
@@ -143,4 +142,5 @@ git push origin main:feat2
 ### Code Understanding
 **Copilot Ask Chat:**
 
+'Explain this code'
 'Explain this code'

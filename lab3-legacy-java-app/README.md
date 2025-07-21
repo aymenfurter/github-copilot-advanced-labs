@@ -1,4 +1,4 @@
-# 🦖 Motor Insurance Application
+# Lab 3: Motor Insurance Application
 
 A legacy Java web application built with Spring MVC for managing motor insurance policies. 
 
@@ -30,7 +30,7 @@ This will create a WAR file in the `target` directory. Yes, a WAR file. Not a JA
 
 There are several ways to run this prehistoric application:
 
-### 1. Using Maven
+### Using Maven
 
 First, build the application (wait for your computer to stop making dial-up noises):
 ```bash
